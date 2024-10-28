@@ -3,6 +3,7 @@ import email
 import os
 import pandas as pd
 
+
 def fetch_email_data(mail_id, passcode):
     try:
         print("Connecting to IMAP server...")
